@@ -36,6 +36,8 @@
             <property name="jakarta.persistence.validation.mode" value="NONE"/>
             <property name="hibernate.service.allow_crawling" value="false"/>
             <property name="hibernate.session.events.log" value="true"/>
+            <property name="javax.persistence.sql-load-script-source" value="META-INF/data.sql"/>
+
         </properties>
 
     </persistence-unit>
